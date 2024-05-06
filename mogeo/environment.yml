@@ -1,0 +1,16 @@
+name: mogeo
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - ipykernel
+  - matplotlib
+  - numpy
+  - orjson
+  - pip
+  - pytest
+  - shapely
+  - pip:
+      - geoarrow-pyarrow
+      - geoarrow-pandas
+      - git+https://github.com/guidorice/mojo-pytest.git@v0.6.0
